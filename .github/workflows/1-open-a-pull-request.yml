@@ -57,6 +57,7 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches.
           ref: update-game # Important, as normally `pull_request` event won't grab other branches.
+          
 
       # In README.md, switch step 1 for step 2.
       - name: Update to step 2
